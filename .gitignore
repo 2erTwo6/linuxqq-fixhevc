@@ -1,0 +1,26 @@
+# 本地构建产物与工具链
+/work/
+/dist/
+/squashfs-root/
+*.AppImage
+
+# 生成的文件
+*.o
+*.a
+*.so
+*.so.*
+*.py[cod]
+__pycache__/
+.zig-cache-*
+*.tar.xz
+
+# 日志、转储与运行时产物
+*.log
+*.core
+core
+
+# 本地环境与编辑器文件
+.env
+.env.*
+.DS_Store
+*.swp
